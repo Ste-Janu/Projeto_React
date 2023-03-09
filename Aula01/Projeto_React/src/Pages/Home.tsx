@@ -1,9 +1,5 @@
-interface HomeProps{
-  setOpcao: (opcao: number) => void;
 
-}
-
-export function Home (props: HomeProps){
+export function Home (){
     return(
         <div>
             <main className="corpo">
@@ -14,8 +10,8 @@ export function Home (props: HomeProps){
             para carreiras na área <br />de tecnologia.
           </h2> 
           <div className="botaodiv">
-           <a >
-              <button onClick={() => props.setOpcao(2)}>Saiba Mais</button>
+           <a href="/saibamais">
+              <button>Saiba Mais</button>
             </a>
             </div>  
         </div>

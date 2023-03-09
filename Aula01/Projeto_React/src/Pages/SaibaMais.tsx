@@ -103,7 +103,7 @@ export function SaibaMais (){
                     <a href="../pages/inscricao.html">
                         <button className="botaoInscrever">Inscreva-se</button>
                     </a>
-                    <a href="../index.html">
+                    <a href='/home'>
                         <button className="botaoInscrever">Voltar</button>
                     </a>
                 </div>
