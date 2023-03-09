@@ -9,14 +9,6 @@ interface MenuProps {
 }
 
 export function Menu(props: MenuProps) {
-  // const [opcao, setOpcao] = useState<number>(1);
-
-  // const verificaQualPagina = () => {
-
-  //   return opcao == 1 ?
-  //     <Home /> :
-  //     <SaibaMais />
-  // };
 
   return (
     <body>
