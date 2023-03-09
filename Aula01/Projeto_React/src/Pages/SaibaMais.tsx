@@ -12,13 +12,13 @@ export function SaibaMais (){
                         Atenção mulheres, essa oportunidade é para vocês! _</h2>
             </div>
             </div>
-            <div className="logos">
+            {/* <div className="logos">
                 <img className="logo" src="../assets/pulsatiLogo2.png" alt="" />
                 <img className="logo2" src="../assets/apex-logo-degrade.png" alt="" />
             </div>
             <div className="iconechevron">
                 <i className="fa-solid fa-chevron-down"></i>
-            </div>
+            </div> */}
         </div>
         <div className="segundaParte">
 
