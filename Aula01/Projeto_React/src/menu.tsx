@@ -12,18 +12,20 @@ export function Menu(props: MenuProps) {
 
   return (
     <body>
+        <Router>
       <header className="topo">
         <a href='/home'>
           <img src={logo} alt="" />
         </a>
         <a href='/saibamais'>Saiba mais</a>
-        <Router>
+        </header>
           <Routes>
+            <Route path='/' element={<Home />}/>
             <Route path='/home' element={<Home />}/>
             <Route path='/saibamais' element={<SaibaMais />} />
           </Routes>
         </Router>
-      </header>
+      
     </body>
   );
 }
