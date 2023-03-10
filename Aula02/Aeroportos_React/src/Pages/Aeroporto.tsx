@@ -14,13 +14,16 @@ export function Aeroporto() {
   }
 
   return (
-    <div>
-      <span>Aeroportos</span>
+    <div >
+      <div className="aero">
+      <span >Aeroportos</span>
+      </div>
       <table>
         <thead>
           <tr>
           <td>Código</td>
           <td>Nome</td>
+          <td>Ações</td>
           </tr>
         </thead>
         <tbody>
@@ -30,6 +33,7 @@ export function Aeroporto() {
                 <tr>
                   <td>{aeroporto.id}</td>
                   <td>{aeroporto.nome}</td>
+                  <td><a href={`/aeroporto/${aeroporto.id}`}>Ver</a></td>
                 </tr>
               )
             })

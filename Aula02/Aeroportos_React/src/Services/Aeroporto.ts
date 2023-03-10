@@ -6,3 +6,8 @@ export async function getTodosAeroportos() {
     .get('http://localhost:8000/aeroporto');
   return aeroportos;
 }
+
+export async function getAeroporto(id: number) {
+  return axios.create({ headers: { 'Content-Type': 'application/json' }})
+    .get(`http://localhost:8000/aeroporto/${id}`);
+}
