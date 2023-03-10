@@ -1,6 +1,7 @@
-import axios from "axios"
 import { useState } from "react";
 import { getTodosAeroportos } from "../Services/Aeroporto"
+
+
 
 export function Aeroporto() {
   const [ aeroportos, setAeroportos ] = useState<any[]>();
@@ -17,8 +18,10 @@ export function Aeroporto() {
       <span>Aeroportos</span>
       <table>
         <thead>
+          <tr>
           <td>Código</td>
           <td>Nome</td>
+          </tr>
         </thead>
         <tbody>
           {

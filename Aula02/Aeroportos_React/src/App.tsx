@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
        <div className='menu'>
-        <a href='/home'>Home</a>  
+        <a className='ahome' href='/home'>Home</a>  
         <a href='/aeroporto'>Aeroportos</a>
       </div>
       <div>
