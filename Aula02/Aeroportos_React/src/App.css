@@ -8,3 +8,36 @@ table, td{
     border: 1px solid;
 }
 
+.acoes{
+    display: flex;
+    gap: 1rem;
+}
+
+*{
+    justify-content: center;
+}
+a{
+    color: black;
+}
+.aero{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+#root{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
