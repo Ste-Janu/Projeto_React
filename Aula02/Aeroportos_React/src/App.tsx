@@ -13,20 +13,26 @@ import { Voo } from './Pages/Voo'
 import { VooVer } from './Pages/VooVer'
 import { VooNovo } from './Pages/VooNovo'
 import { VooEditar } from './Pages/VooEditar'
+import { AppBar, Box, Toolbar } from '@mui/material'
+
 
 function App() {
 
   return (
-    <div>
+    <div style={{display: 'flex', flexDirection: 'column' , justifyContent: 'center', textAlign: 'center'}}>
+      <Box sx={{ flexGrow: 1}}>
+        <AppBar position="static">
+          <Toolbar sx={{ justifyContent: 'center'}} className='menu'>
+            <a href='/home'>Home</a>
+            <a href='/aeroporto' >Aeroportos</a>
+            <a href="/passageiro" >Passageiros</a>
+            <a href="/voo" >Voos</a>
+          </Toolbar>
+        </AppBar>
+      </Box>
       <Router>
-        <div className='menu'>
-          <a className='ahome' href='/home'>Home</a>
-          <a href='/aeroporto'>Aeroportos</a>
-          <a href="/passageiro">Passageiros</a>
-          <a href="/voo">Voos</a>
-        </div>
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
 
           {/* rotas para aeroporto */}

@@ -1,8 +1,11 @@
+
+
 .menu{
     display: flex;
     gap: 2rem;
-    margin-bottom: 1rem;
+
 }
+
 
 table, td{
     border: 1px solid;
@@ -13,9 +16,11 @@ table, td{
     gap: 1rem;
 }
 
-*{
-    justify-content: center;
-}
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
 a{
     color: black;
 }
@@ -39,10 +44,9 @@ a{
 #root{
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .ppp{
     margin-top: 20px;
-    
 }
