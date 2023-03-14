@@ -19,8 +19,14 @@ export function PassageiroNovo () {
         <input type="text" name="nome" />
       </div>
       <div>
-        <span>Cod. Voo </span>
-        <input type="text" name="CodVoo" />
+      <span>Comp. Aerea</span>
+        <select name="CodVoo" id="CodVoo">
+          <option value="">Selecione</option>
+          <option value="22">GOL</option>
+          <option value="2">LATAM</option>
+          <option value="3">AZUL</option>
+          <option value="23">TESTE</option>
+        </select>
       </div>
       <input type="submit" value="Salvar" />
     </form>
